@@ -1,0 +1,450 @@
+.shirleyromero {
+  position: relative;
+  line-height: 24px;
+  text-transform: lowercase;
+  font-weight: 600;
+}
+.profileName {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0;
+}
+.iconsarrow {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.icon,
+.profileNameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon {
+  padding: var(--padding-5xs);
+}
+.profileNameParent {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 68.5px);
+}
+.headerText {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 229px;
+  height: 36px;
+}
+.iconsnewmessages {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 var(--padding-7xs) var(--padding-base);
+}
+.header2 {
+  width: 269px;
+  position: relative;
+  height: 36px;
+}
+.header1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-13xl);
+}
+.border1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--border-color);
+}
+.border {
+  width: 350px;
+  position: relative;
+  height: 1px;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  gap: var(--gap-2xs);
+}
+.profilePicSIcon {
+  width: 56px;
+  position: relative;
+  border-radius: var(--br-37xl);
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.profilePic {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 0;
+  cursor: pointer;
+}
+.trerrylucas {
+  position: relative;
+  line-height: 11px;
+  text-transform: lowercase;
+}
+.profileName1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.active1hAgo {
+  position: relative;
+  line-height: 11px;
+}
+.time {
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-5xs) 0 0;
+  color: var(--gray);
+}
+.messageProfile,
+.messenger1,
+.profile,
+.profilePic1,
+.time {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.profile {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-smi) 0;
+}
+.messageProfile,
+.messenger1,
+.profilePic1 {
+  flex-direction: row;
+}
+.messageProfile {
+  width: 350px;
+  padding: var(--padding-5xs) var(--padding-xl);
+  box-sizing: border-box;
+}
+.messenger1,
+.profilePic1 {
+  padding: 0 var(--padding-xs) 0 0;
+}
+.messenger1 {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  font-size: var(--font-size-sm);
+}
+.icon2,
+.left {
+  position: relative;
+}
+.left {
+  width: 350px;
+  background-color: var(--white);
+  border: 1px solid var(--border-color);
+  box-sizing: border-box;
+  height: 987px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon2 {
+  width: 535px;
+  height: 96px;
+}
+.yourMessages {
+  position: relative;
+  line-height: 17px;
+}
+.header4 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 70.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 0;
+}
+.header3 {
+  width: 535px;
+  position: relative;
+  height: 33px;
+  font-size: var(--font-size-3xl);
+}
+.text1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 172.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 0;
+}
+.text {
+  width: 535px;
+  position: relative;
+  height: 27px;
+  color: var(--gray);
+}
+.sendMessage {
+  position: relative;
+  line-height: 18px;
+  font-weight: 600;
+}
+.button1,
+.sendMessageWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sendMessageWrapper {
+  border-radius: var(--br-9xs);
+  background-color: var(--blue);
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-4xs);
+}
+.button1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 58.5px);
+  flex-direction: column;
+  padding: var(--padding-9xl) var(--padding-9xs) var(--padding-9xs);
+}
+.button {
+  width: 535px;
+  position: relative;
+  height: 62px;
+  color: var(--white);
+}
+.content2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-6xl) var(--padding-5xl)
+    var(--padding-5xl);
+}
+.content1 {
+  position: absolute;
+  top: 360px;
+  left: 1px;
+  width: 584px;
+  height: 267px;
+}
+.right {
+  width: 585px;
+  position: relative;
+  background-color: var(--white);
+  border: 1px solid var(--border-color);
+  box-sizing: border-box;
+  height: 987px;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: var(--font-size-sm);
+}
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-54xl) 0 var(--padding-xl);
+}
+.messengerbody {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 467px);
+  background-color: var(--white);
+  width: 935px;
+}
+.logoIcon {
+  width: 103px;
+  position: relative;
+  height: 29px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+}
+.iconssearch {
+  width: 10px;
+  position: relative;
+  height: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-7xs) var(--padding-9xs) 0;
+}
+.search2 {
+  position: relative;
+  line-height: 18px;
+  font-weight: 300;
+}
+.search1 {
+  position: absolute;
+  top: 4px;
+  left: 71px;
+  width: 72px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0;
+}
+.search,
+.search1,
+.searchBox {
+  box-sizing: border-box;
+}
+.searchBox {
+  width: 215px;
+  position: relative;
+  border-radius: var(--br-10xs);
+  border: 1px solid var(--border-color);
+  height: 28px;
+}
+.search {
+  position: absolute;
+  width: 22.99%;
+  top: 0;
+  right: 38.5%;
+  left: 38.5%;
+  background-color: var(--dark-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0;
+}
+.menuButtonItemIcon {
+  cursor: pointer;
+}
+.menuButtonItemIcon,
+.menuButtonItemIcon1,
+.menuButtonItemIcon5 {
+  width: 22px;
+  position: relative;
+  height: 22px;
+}
+.menuButtonItemIcon5 {
+  object-fit: cover;
+}
+.menuButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 var(--padding-6xs) var(--padding-5xl);
+  gap: var(--gap-3xl);
+}
+.navigations2 {
+  align-self: stretch;
+  position: relative;
+  height: 36px;
+}
+.navigations1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 467px);
+  width: 935px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.navigations {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 960px);
+  background-color: var(--dark-white);
+  width: 1920px;
+  height: 53px;
+  overflow: hidden;
+  font-size: var(--font-size-sm);
+  color: var(--gray);
+}
+.border2 {
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  right: 0;
+  left: 0;
+  background-color: var(--border-color);
+  height: 1px;
+}
+.messenger {
+  width: 100%;
+  position: relative;
+  background-color: var(--dark-white);
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+  font-family: var(--font-segoe-ui);
+}

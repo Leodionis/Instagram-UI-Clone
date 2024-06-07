@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-segoe-ui: "Segoe UI";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-3xs: 10px;
+  --font-size-xs: 12px;
+  --font-size-2xs: 11px;
+  --font-size-3xl: 22px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-9xl: 28px;
+
+  /* Colors */
+  --dark-white: #fafafa;
+  --gray: #8e8e8e;
+  --color-gray-100: #262626;
+  --border-color: #dbdbdb;
+  --white: #fff;
+  --color-whitesmoke: #efefef;
+  --blue: #0095f6;
+  --footer-color: #c7c7c7;
+
+  /* Gaps */
+  --gap-3xl: 22px;
+  --gap-6xs: 7px;
+  --gap-107xl: 126px;
+  --gap-5xs: 8px;
+  --gap-2xs: 11px;
+
+  /* Paddings */
+  --padding-4xs: 9px;
+  --padding-5xs: 8px;
+  --padding-6xs: 7px;
+  --padding-5xl: 24px;
+  --padding-9xs: 4px;
+  --padding-12xs: 1px;
+  --padding-7xs: 6px;
+  --padding-9xl: 28px;
+  --padding-base: 16px;
+  --padding-2xs: 11px;
+  --padding-3xs: 10px;
+  --padding-sm: 14px;
+  --padding-11xs: 2px;
+  --padding-41xl: 60px;
+  --padding-mid: 17px;
+  --padding-xl: 20px;
+  --padding-10xs: 3px;
+  --padding-xs: 12px;
+  --padding-19xl: 38px;
+  --padding-10xs-8: 2.8px;
+  --padding-59xl: 78px;
+  --padding-54xl: 73px;
+  --padding-6xl: 25px;
+  --padding-smi: 13px;
+  --padding-13xl: 32px;
+  --padding-33xl: 52px;
+  --padding-mini: 15px;
+  --padding-25xl: 44px;
+  --padding-21xl: 40px;
+  --padding-8xs: 5px;
+  --padding-82xl: 101px;
+  --padding-52xl: 71px;
+  --padding-29xl: 48px;
+  --padding-4xl: 23px;
+
+  /* Border radiuses */
+  --br-10xs: 3px;
+  --br-3xl: 22px;
+  --br-13xl: 32px;
+  --br-37xl: 56px;
+  --br-9xs: 4px;
+}
