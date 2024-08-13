@@ -1,10 +1,5 @@
+# Instagram UI Clone
 
-  # Instagram UI Clone
+## Deskripsi
 
-  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
-
-  To preview and run the project on your device:
-  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-  2) In the terminal, run `npm install`
-  3) Run `npm start` to view project in browser
-  
+Proyek ini adalah sebuah clone dari antarmuka pengguna (UI) Instagram yang dibuat menggunakan teknologi front-end modern. Tujuannya adalah untuk mempelajari dan mengimplementasikan tata letak serta gaya desain Instagram yang populer. Meskipun tidak mencakup fungsionalitas backend atau fitur interaktif seperti posting dan komentar, proyek ini memberikan pengalaman langsung dalam membuat antarmuka yang responsif dan menarik secara visual.
